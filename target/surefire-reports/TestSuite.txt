@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 55.229 sec <<< FAILURE! - in TestSuite
+login_001(com.orange.test.Login_MavenOrange)  Time elapsed: 0.088 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+	at com.orange.test.Login_MavenOrange.login_001(Login_MavenOrange.java:15)
+
+login_002(com.orange.test.Login_MavenOrange)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+	at com.orange.test.Login_MavenOrange.login_002(Login_MavenOrange.java:22)
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="opensourcecms"/>
+  <parameter name="userName" value="opensourcecms"/>
+  <listeners>
+    <listener class-name="com.orange.base.BaseClass_MavenOrange"/>
+  </listeners>
+  <test name="Orange1(failed)">
+    <classes>
+      <class name="com.orange.test.Login_MavenOrange">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="login_002"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.orange.test.Login_MavenOrange -->
+    </classes>
+  </test> <!-- Orange1(failed) -->
+</suite> <!-- Failed suite [OrangeHRM] -->
